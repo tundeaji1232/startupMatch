@@ -35,7 +35,7 @@ INSERT INTO task (task_name,description,period,members) VALUES('build a custom m
 
 INSERT INTO profile(fullname,skills,img_src) VALUES ('gill smith','app development','https://i1.wp.com/admin.thenet.ng/wp-content/uploads/2016/09/eba-600x586.jpg?resize=600%2C586');
 
-INSERT INTO register (reg_name,reg_email,reg_passwword) VALUES ('gill','gill@gmail.com','inpbyibun');
+INSERT INTO register (reg_name,reg_email,reg_passwword) VALUES ('gill','gill@gmail.com','password');
 
 
 
