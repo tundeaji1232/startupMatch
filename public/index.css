@@ -1,0 +1,13 @@
+
+
+.landingPage{
+  background-image:url();
+  bacground-repeat: np-repeat;
+  background-size: cover;
+
+}
+
+.landingContainer{
+  display:flex;
+  justify-content: center;
+}

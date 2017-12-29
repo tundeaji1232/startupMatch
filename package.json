@@ -1,0 +1,27 @@
+{
+  "name": "startupmatch",
+  "version": "1.0.0",
+  "description": "users with different skills set combine to make up teams that run a small niche startup within a specified time period",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tundeaji1232/startupMatch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tundeaji1232/startupMatch/issues"
+  },
+  "homepage": "https://github.com/tundeaji1232/startupMatch#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.14.3",
+    "path": "^0.12.7"
+  }
+}
