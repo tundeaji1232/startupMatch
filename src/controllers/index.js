@@ -8,6 +8,6 @@ const register=require('./register');
 
 router.get('/',home.get);
 router.get('/login',login.get);
-router.post('/register',register.post);
+router.get('/register',register.get);
 
 module.exports=router;
