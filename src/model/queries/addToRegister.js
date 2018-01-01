@@ -1,4 +1,4 @@
-const db = require('../database/db_connections.js')
+const db = require('../database/db_connection.js')
 
 
 const addToRegister=(user_details)=>{

@@ -1,10 +1,13 @@
 
 
 
+const checkRegister=require('../model/queries/checkRegistered')
+const addToRegisterQuery=require('../model/queries/addToRegister')
+
 
 exports.post=(req,res)=>{
   const user_details=req.body;
-  checkRegistered(user_details.email).then((queryRes) => {
+  checkRegister(user_details.email).then((queryRes) => {
     console.log(queryRes[0].case==true);
     return new Promise((resolve, reject) => {
       if (queryRes[0].case===false) {
@@ -20,7 +23,7 @@ exports.post=(req,res)=>{
   return hash;
  })
 .then((hashedReturnAbove) => {
-    return addToRegister(user_details.name,user_details.email, hashedReturnAbove);
+    return addToRegisterQuery(user_details.name,user_details.email, hashedReturnAbove);
  })
  .then(() => {
     req.session.name = user_details.name;
